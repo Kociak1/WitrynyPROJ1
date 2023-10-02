@@ -6,19 +6,26 @@
 }
 
 body {
-    display: flex;
+    display: grid;
+    grid-template-rows: 100vh auto;
     font-family: 'PT Sans Narrow';
-    min-height: 100vh;
-    font-size: 3rem;
-   padding: 2rem;
    background: #EBE76C;
 }
 
 h2 {
+    font-size: clamp(3rem, 15vh, 10rem);
+    padding: 2rem;
     display: block;
     margin: auto;
+    text-align: center;
     background: linear-gradient(#ED7B7B,#836096);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     color: transparent;
 }
+footer {
+    background: #836096;
+    padding: 2rem;
+    color: white;
+}
+
