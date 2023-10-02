@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=PT+Sans:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'PT Sans Narrow';
+    min-height: 100vh;
+    font-size: 3rem;
+   padding: 2rem;
+   background: #EBE76C;
+}
+
+h2 {
+    display: block;
+    margin: auto;
+    background: linear-gradient(#ED7B7B,#836096);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
